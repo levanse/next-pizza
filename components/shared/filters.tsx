@@ -3,6 +3,7 @@ import React from "react";
 import { Title } from "./title";
 import { FilterCheckbox } from "@/components/shared/filter-checkbox";
 import { Input } from "@/components/ui";
+import { RangeSlider } from "@/components/shared/range-slider";
 
 interface Props {
   className?: string;
@@ -30,6 +31,8 @@ export const Filters: React.FC<Props> = ({ className }) => {
           />
           <Input type="number" placeholder="1000" min={100} max={1000} />
         </div>
+
+        <RangeSlider min={0} max={1000} step={10} value={[0, 1000]} />
       </div>
     </div>
   );
