@@ -23,6 +23,7 @@ export default function Home() {
             <div className="flex flex-col gap-16">
               <ProductsGroupList
                 title="Пиццы"
+                categoryId={1}
                 products={[
                   {
                     id: 1,
@@ -33,7 +34,7 @@ export default function Home() {
                     items: [{ price: 550 }],
                   },
                   {
-                    id: 1,
+                    id: 2,
                     name: "Чизбургер-пицца",
                     price: 550,
                     imageUrl:
@@ -41,7 +42,7 @@ export default function Home() {
                     items: [{ price: 550 }],
                   },
                   {
-                    id: 1,
+                    id: 3,
                     name: "Чизбургер-пицца",
                     price: 550,
                     imageUrl:
@@ -49,7 +50,7 @@ export default function Home() {
                     items: [{ price: 550 }],
                   },
                   {
-                    id: 1,
+                    id: 4,
                     name: "Чизбургер-пицца",
                     price: 550,
                     imageUrl:
@@ -57,7 +58,7 @@ export default function Home() {
                     items: [{ price: 550 }],
                   },
                   {
-                    id: 1,
+                    id: 5,
                     name: "Чизбургер-пицца",
                     price: 550,
                     imageUrl:
@@ -65,7 +66,7 @@ export default function Home() {
                     items: [{ price: 550 }],
                   },
                   {
-                    id: 1,
+                    id: 6,
                     name: "Чизбургер-пицца",
                     price: 550,
                     imageUrl:
@@ -73,7 +74,7 @@ export default function Home() {
                     items: [{ price: 550 }],
                   },
                   {
-                    id: 1,
+                    id: 7,
                     name: "Чизбургер-пицца",
                     price: 550,
                     imageUrl:
@@ -81,14 +82,14 @@ export default function Home() {
                     items: [{ price: 550 }],
                   },
                 ]}
-                categoryId={1}
               />
 
               <ProductsGroupList
                 title="Завтрак"
+                categoryId={2}
                 products={[
                   {
-                    id: 1,
+                    id: 8,
                     name: "Чизбургер-пицца",
                     price: 550,
                     imageUrl:
@@ -96,7 +97,7 @@ export default function Home() {
                     items: [{ price: 550 }],
                   },
                   {
-                    id: 1,
+                    id: 9,
                     name: "Чизбургер-пицца",
                     price: 550,
                     imageUrl:
@@ -104,7 +105,7 @@ export default function Home() {
                     items: [{ price: 550 }],
                   },
                   {
-                    id: 1,
+                    id: 10,
                     name: "Чизбургер-пицца",
                     price: 550,
                     imageUrl:
@@ -112,7 +113,7 @@ export default function Home() {
                     items: [{ price: 550 }],
                   },
                   {
-                    id: 1,
+                    id: 11,
                     name: "Чизбургер-пицца",
                     price: 550,
                     imageUrl:
@@ -120,7 +121,7 @@ export default function Home() {
                     items: [{ price: 550 }],
                   },
                   {
-                    id: 1,
+                    id: 12,
                     name: "Чизбургер-пицца",
                     price: 550,
                     imageUrl:
@@ -128,7 +129,7 @@ export default function Home() {
                     items: [{ price: 550 }],
                   },
                   {
-                    id: 1,
+                    id: 13,
                     name: "Чизбургер-пицца",
                     price: 550,
                     imageUrl:
@@ -136,7 +137,7 @@ export default function Home() {
                     items: [{ price: 550 }],
                   },
                   {
-                    id: 1,
+                    id: 14,
                     name: "Чизбургер-пицца",
                     price: 550,
                     imageUrl:
@@ -144,7 +145,6 @@ export default function Home() {
                     items: [{ price: 550 }],
                   },
                 ]}
-                categoryId={1}
               />
             </div>
           </div>
