@@ -85,7 +85,7 @@ export default function Home() {
               />
 
               <ProductsGroupList
-                title="Завтрак"
+                title="Комбо"
                 categoryId={2}
                 products={[
                   {
